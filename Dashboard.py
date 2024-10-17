@@ -1,11 +1,8 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import yfinance as yf
 from tradingview_ta import TA_Handler, Interval
-import seaborn as sns
 from plotly import graph_objects as go
-import pytz  # Import pytz for time zone handling
 import time
 from support_resistance import identify_levels, group_levels, plot_levels
 
