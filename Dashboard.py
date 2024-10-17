@@ -213,9 +213,9 @@ def more_page():
 
     st.subheader("Statistics")
     try:
-        results = pd.read_csv('C:/Users/mredu_ykchdzs/pythonProject/Treading/trading_results.csv')
+        results = pd.read_csv(data)
     except FileNotFoundError:
-        st.error("The CSV file 'trading_results.csv' was not found. Please ensure the file exists.")
+        st.error("The Data was not found. Please ensure the Data exists.")
         return
 
     metrics = calculate_metrics(results)
