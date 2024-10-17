@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import yfinance as yf
 from tradingview_ta import TA_Handler, Interval
 import seaborn as sns
