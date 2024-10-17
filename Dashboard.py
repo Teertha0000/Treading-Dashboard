@@ -56,7 +56,7 @@ def calculate_metrics(data):
 
 # Main function to run the app
 def main():
-    st.image('C:/Users/mredu_ykchdzs/pythonProject/Treading/icons8-apple-logo(1).png', width=250)
+    st.header("APPLE")
 
     # Read the CSV file
     try:
